@@ -79,6 +79,9 @@ persist.radio.VT_USE_MDM_TIME=0
 # Media
 media.aac_51_output_enabled=true
 
+## Mods
+sys.mod.platformsdkversion=105
+
 # Radio
 persist.data.qmi.adb_logmask=0
 persist.radio.apn_delay=5000
