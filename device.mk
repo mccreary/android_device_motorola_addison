@@ -178,6 +178,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    ModFmwkProxyService
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/mods/com.motorola.mod.xml:system/etc/permissions/com.motorola.mod.xml \
+    $(LOCAL_PATH)/configs/mods/com.motorola.mod.protocols.xml:system/etc/permissions/com.motorola.mod.protocols.xml
+
 # NFC
 PRODUCT_COPY_FILES += \
     frameworks/base/nfc-extras/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml
