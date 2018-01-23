@@ -176,6 +176,8 @@ PRODUCT_COPY_FILES += \
 
 # Mods
 PRODUCT_PACKAGES += \
+   init.mods.rc \
+   init.gbmods.sh \
    ModFmwkProxyService
 
 PRODUCT_COPY_FILES += \
