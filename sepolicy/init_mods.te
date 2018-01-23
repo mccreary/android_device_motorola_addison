@@ -1,0 +1,8 @@
+type init_mods, domain, domain_deprecated;
+type init_mods_exec, exec_type, file_type;
+init_daemon_domain(init_mods)
+
+allow init_mods self:capability sys_module;
+allow init_mods shell_exec:file read;
+allow init_mods system_file:system module_load;
+allow init_mods toolbox_exec:file { read getattr open execute execute_no_trans };

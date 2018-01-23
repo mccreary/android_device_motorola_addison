@@ -1,6 +1,9 @@
 # Moto USB configuration
 import init.mmi.usb.rc
 
+# Moto mods
+import init.mods.rc
+
 on early-boot
     write /sys/module/subsystem_restart/parameters/disable_restart_work 0x0
     write /proc/sys/kernel/poweroff_cmd "/system/bin/reboot -p"
@@ -262,6 +265,7 @@ on charger
 on moto-charger
     setprop ro.board.platform msm8953
     trigger firmware_mounts_complete
+    start gbmodinstall
     start thermal-com
 
 on property:ro.boot.dualsim=true

@@ -175,6 +175,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
 # Mods
+PRODUCT_PACKAGES += \
+    init.mods.rc \
+    init.gbmods.sh
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mods/com.motorola.mod.xml:system/etc/permissions/com.motorola.mod.xml \
     $(LOCAL_PATH)/configs/mods/com.motorola.mod.protocols.xml:system/etc/permissions/com.motorola.mod.protocols.xml
