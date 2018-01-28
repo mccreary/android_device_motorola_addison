@@ -176,6 +176,7 @@ PRODUCT_COPY_FILES += \
 
 # Mods
 PRODUCT_PACKAGES += \
+    ModPermsFix \
     init.mods.rc \
     init.gbmods.sh
 
