@@ -60,7 +60,6 @@ lib/libmbs.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
 lib/libmm-qcamera.so
-lib/libmodmanager.so
 lib/libmorpho_image_stabilizer4.so
 lib/libmot_afd.so
 lib/libmotimager_utils.so
@@ -392,6 +391,8 @@ vendor/lib/libOmxWmaDec.so
 
 # Mods
 -priv-app/ModFmwkProxyService/ModFmwkProxyService.apk
+priv-app/ModService/ModService.apk
+lib/libmodmanager.so
 
 # Network
 -priv-app/QtiTetherService/QtiTetherService.apk
