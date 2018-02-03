@@ -390,6 +390,9 @@ vendor/lib/libOmxApeDec.so
 vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxWmaDec.so
 
+# Mods
+-priv-app/ModFmwkProxyService/ModFmwkProxyService.apk
+
 # Network
 -priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libQtiTether.so
