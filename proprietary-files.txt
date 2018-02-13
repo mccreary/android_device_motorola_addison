@@ -390,7 +390,7 @@ vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxWmaDec.so
 
 # Mods
--priv-app/ModService/ModService.apk
+-priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk:PRESIGNED
 lib/libmodmanager.so
 
 # Network
